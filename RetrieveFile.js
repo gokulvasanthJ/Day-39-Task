@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const folderPath = '/Users/USER/Desktop/guvi-tasks-node/Day-39-Task-main'; // Replace with the actual folder path
+const folderPath = '/Users/USER/Desktop/guvi-tasks-node'; // Replace with the actual folder path
 
 fs.readdir(folderPath, (err, files) => {
   if (err) {
